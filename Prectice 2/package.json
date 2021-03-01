@@ -1,0 +1,18 @@
+{
+  "name": "prectice-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src --presets react,es2015 --out-dir public",
+    "watch": "babel src --presets react,es2015 --out-dir public -watch --verbose",
+    "start": "nodemon -w server server/server.js"
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
